@@ -1,0 +1,28 @@
+:root {
+    color-scheme: light dark;
+}
+
+/* :lang(pt-BR) {
+    font-synthesis: none; 
+}  */
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Courier New", Courier, monospace;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antiaLiased;
+    -moz-osx-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+button, #select-btn {
+    cursor: pointer;
+}

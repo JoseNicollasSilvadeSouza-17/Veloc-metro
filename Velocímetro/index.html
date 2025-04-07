@@ -1,0 +1,70 @@
+<!-- Data de criação: 06/04/2025 -->
+
+<!DOCTYPE html>
+<html lang = "pt-BR">
+    <head>
+        <meta charset = "utf-8"/>
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0"/>
+        <meta name = "description" content = "Velocímetro básico"/>
+        <meta name = "author" content = "José Nícollas Silva de Souza"/>
+
+        <title>Velocímetro Básico</title>
+        <link rel = "icon" type = "img/png" href = "/src/images/speedometer.png"/>
+
+        <link rel = "stylesheet" href = "src/css/style.css"/>
+
+        <script src = "https://unpkg.com/lucide@latest"></script>
+    </head>
+    <body>
+        <main>
+            <header>
+                <h1>Velocímetro</h1>
+
+                <h2>0</h2>
+
+                <h3>m/s</h3>
+            </header>
+
+            <section class = "opcao">
+                <section class = "select">
+                    <div id = "category-select">
+                        <label for = "options-view-btn">Unidade de Velocidade</label>
+
+                        <input type = "checkbox" id = "options-view-btn"/>
+
+                        <div id = "select-btn">
+                            <h4>Selecione</h4>
+                        
+
+                            <div id = "chevrons">
+                                <i data-lucide = "chevron-down"></i>
+                                <i data-lucide = "chevron-up"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <ul class = "options">
+                        <li class = "option">
+                            <input type = "radio" name = "m_s" value = "m/s"/>
+                        </li>
+
+                        <li class = "option">
+                            <input type = "radio" name = "km_s" value = "Km/s"/>
+                        </li>
+
+                        <li class="option">
+                            <input type = "radio" name = "km_h" value = "Km/h"
+                            data-label = "Km/h"/>
+                        </li>
+                    </ul> -->
+                </section>
+
+                <button id = "iniciar">Iniciar</button>
+                <button id = "reiniciar" class = "hidden">Reiniciar</button>
+                <button id = "pausar" class = hidden>Pausar</button>
+            </section>
+        </main>
+
+        <script src = "/src/js/index.js"></script>
+    </body>
+</html>
